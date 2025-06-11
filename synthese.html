@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthèse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Une solution informatique pour l'entreprise ! <strong>SAé 23</strong></h1>
+    </header>
+
+    <!-- Navigation stylisée -->
+    <nav class="nav-bar">
+        <ul class="nav-pages">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li class="dropdown"> <!-- création d'un menu déroulant pour la présentation -->
+                <a class="dropbouton">Administration</a> <!-- Bouton principal -->
+                <div class="dropdown-contenue"> <!-- Contenue du menu déroulant qui ne s'affichent que si on le survole avec le curseur -->
+                    <a href="loginA.php">Modification des tables</a>
+                    <a href="loginAA.php">Affichage de toute les salles</a>
+                </div>
+            </li>
+            <li><a href="index.php">Gestion</a></li>
+            <li><a href="consultation.php">Consultation</a></li>
+            <li class="dropdown"> <!-- création d'un menu déroulant pour la présentation -->
+                <a class="dropbouton">Gestion de Project</a> <!-- Bouton principal -->
+                <div class="dropdown-contenue"> <!-- Contenue du menu déroulant qui ne s'affichent que si on le survole avec le curseur -->
+                    <a href="livrables.html">Livrables</a>
+                    <a href="#">Synthèse personnelle</a>
+                    <a href="problemes.html">Problèmes rencontrés</a>
+                    <a href="satisfaction.html">Degré de satisfaction</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="last">
+        <h2>FERRIER Enzo</h2>
+        <p>
+            Je me suis chargé du développement du site web dynamique ainsi que du script permettant de récupérer les données via le broker MQTT.
+J’ai intégré ces données dans une base MySQL et conçu leur affichage sur le site sous forme de tableaux comprenant des statistiques (minimum, maximum, moyenne).
+L’enregistrement des données a été automatisé à l’aide de crontab.
+Ce projet m’a permis de consolider mes compétences en développement web (HTML, CSS, PHP), en scripts bash, ainsi qu’en gestion de bases de données.
+J’ai particulièrement apprécié le lien entre la partie technique (capteurs, traitement) et la mise en forme accessible via une interface utilisateur fonctionnelle.</p>
+        <h2>POLIDORO Kevin</h2>
+        <p>
+            J’ai pris en charge la conception de la base de données via PhpMyAdmin.
+J’ai créé les tables nécessaires au bon fonctionnement du site, en suivant les exigences du cahier des charges.
+J’ai également mis en place un tableau de bord Grafana connecté à InfluxDB pour afficher en temps réel les mesures des capteurs.
+Cette mission m’a permis de mieux saisir la relation entre les bases de données relationnelles et les outils de visualisation de données, ainsi que l’importance d’un schéma de données bien pensé dans un projet connecté.</p>
+        <h2>MOHAMED Kevin</h2>
+        <p>
+            Ma mission principale était axée sur la gestion du projet.
+J’ai réalisé un diagramme de Gantt et organisé les tâches sur Trello afin de répartir clairement le travail entre les membres de l’équipe.
+Cette expérience m’a permis de me familiariser concrètement avec la planification, la répartition des rôles, le suivi de l’avancement, et l’adaptation face aux imprévus techniques.
+Elle m’a donné une meilleure compréhension de l’importance d’une organisation rigoureuse dans le cadre d’un projet informatique collaboratif.</p>
+        </p>
+    </section>
+        <footer>
+        <ul>
+            <li><a class="sites" href="https://www.iut-blagnac.fr/fr/">IUT de Blagnac</a></li>
+            <li><a class="sites" href="https://www.iut-blagnac.fr/fr/formations/but-rt">Département Réseaux et Télécommunications</a></li>
+            <li>BUT 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        </ul>
+    </footer>
+</body>
+</html>
